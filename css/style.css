@@ -1,0 +1,40 @@
+
+			
+				body {
+					margin: 0;
+					background-color: #999;
+				}
+				header, footer {
+					background-color: #222;
+					color: #fff;
+					height: 50px;			
+				}
+				header .one {
+					text-align: center;
+					padding: 10px 0 0 0;
+				}
+				
+				footer {
+					text-align: center;
+				}
+				.main {
+					background-color: #fff;
+					width: 80%;
+					margin: 0 10%;
+					max-height: 500px;
+					padding: 10px;
+				}
+				.two  {
+					margin-top: 10px;
+				}
+ 				.field {
+					text-align:right;
+				}
+				
+				.field>div {
+					height:30px;
+				}
+				label {
+					float:left;
+				}
+							
