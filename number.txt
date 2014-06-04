@@ -1,0 +1,10 @@
+one		eleven		twenty-one
+two		twelve		twenty-two	
+three		thirteen		twenty-three
+four		fourteen		twenty-four
+five		fifteen		twenty-five
+six		sixteen		twenty-six
+seven		seventeen	twenty-seven	
+eight		eighteen		twenty-eight
+nine		ninteen		twenty-nine
+ten		twenty		thirty
