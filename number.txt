@@ -1,10 +1,10 @@
-one		eleven		twenty-one
-two		twelve		twenty-two	
-three		thirteen		twenty-three
-four		fourteen		twenty-four
-five		fifteen		twenty-five
-six		sixteen		twenty-six
-seven		seventeen	twenty-seven	
-eight		eighteen		twenty-eight
-nine		ninteen		twenty-nine
-ten		twenty		thirty
+one-один		eleven-одинадцать			twenty-one=21		
+two-два		twelve-двенадцаь			twenty-two	=22		
+three-три		thirteen-тринадцать			twenty-three=23
+four-четит		fourteen-четирнадцать		twenty-four=24
+five-пять		fifteen-пятнадцать			twenty-five=25
+six-шесть		sixteen-шеснадцать		twenty-six=26
+seven-семь	seventeen-симнадцать		twenty-seven=27	
+eight-восемь	eighteen-восемнадцать		twenty-eight=28
+nine-девять	ninteen-девятнадцать		twenty-nine=29
+ten-десять	twenty-двадцать			thirty=30
