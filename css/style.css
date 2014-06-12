@@ -29,10 +29,28 @@ footer {
     text-align:right;
 }
 
-.field>div {
+/*Применить к div первого уровня контейнера .field*/
+.field > div {
     height:30px;
+    padding: 10px 0 0 10px;
 }
+
+.field > div:hover {
+    background-color: #cbffb8;
+}
+
 label {
     float:left;
+}
+
+.zebra .odd {
+    background-color: #eee;
+}
+
+/* 2 селектора, на один набор стилей*/
+header .menu .active,
+header .menu li:hover {
+    text-decoration: underline;
+    cursor: hand;
 }
 							

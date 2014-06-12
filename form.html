@@ -1,54 +1,61 @@
 <html>
 	<head>
+        <meta charset="utf-8">
 		<link rel="stylesheet"href="css/style.css">
 	</head>
 <body>
 	<header>
+        <ul class="menu">
+            <li>Home</li>
+            <li class="active">One</li>
+            <li>Two</li>
+        </ul>
 	</header>
 	<div class="main">
 		<form>		
-			<div class="field">
-				<div>
-					<label for="name">Имя:</label>
-					<input id="name" type="text" name="name" placeholder="написать имя">
+			<div class="field zebra">
+				<div class="odd">
+					<label for="name">РРјСЏ</label>
+					<input id="name" type="text" name="name" placeholder="Р‘СѓР±СѓР±Сѓ">
 				</div>
 				<div>
-					<label for="email">Почта:</label>
+					<label for="email">Email:</label>
 					<input id="email" type="text" name="email">
 				</div>
-				<div>
-					<label for="strength">Возрaст:</label>
+				<div class="odd">
+					<label for="strength">Age:</label>
 					<input id="strength" type="text" name="strength">
 				</div>
 				<div>
-					<label for="password">Пароль:</label>
-					<input id="password" type="password" name="password"  placeholder="не менее восьми знаков">
+					<label for="password">РџР°СЂРѕР»СЊ 2:</label>
+					<input id="password" type="password" name="password"  placeholder="РџР°СЂРѕР»РЄ">
+				</div>
+				<div class="odd">
+					<label for="gender_f">Р–РµРЅС‰РёРЅР°</label>
+					<input id="gender_f" type="radio" name="gender" value="female">
 				</div>
 				<div>
-					<label for="gender_f">Женщина</label>
-					<input id="gerdenr_f" type="radio" name="gender" value="femele">
+					<label for="gender_m">РњСѓР¶С‡РёРЅР°</label>
+					<input id="gender_m" type="radio" name="gender" value="male">
 				</div>
-				<div>
-					<label for="gender_m">Мужчина</label>
-					<input id="gerdenr_m" type="radio" name="gender" value="male">
-				</div>
-					<label for="natio">Национальность:</label>
-				<div>
-					<select id="natio" name="natio">
-						<option value="US">USA</option>
-						<option value="UA">Ukraine</option>
-						<option value="RU">Барабаш</option>
+				<div class="odd">
+					<label for="nation">Р’С‹ РµРІСЂРµР№?</label>
+					<select id="nation" name="nation">
+						<option value="yes">Р”Р°</option>
+						<option value="no">РќРµС‚</option>
+						<option value="RU">Рђ С€Рѕ С‚Р°РєРѕРµ?</option>
 					</select>
 				</div>
 				<div>
-					<label for="about">О себе:</label>
+					<label for="about">Рћ СЃРµР±Рµ</label>
 					<textarea id="about" name="about"></textarea>
 				</div>
-				<div>
-					<label for="agree">Я согласен:</label>
+				<div class="odd">
+					<label for="agree">Р’С‹ СЃРѕРіР»Р°СЃРЅС‹?</label>
 					<input id="agree" type="checkbox" name="agree">
 				</div>
-				<input type="submit" value="Мой текст">			
+				<input type="submit" value="РџРѕРµС…Р°Р»Рё!">
+            </div>
 		</form>
 	</div>
 </body>
