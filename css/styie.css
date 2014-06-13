@@ -1,0 +1,11 @@
+body {
+    margin: 30px ;
+    background-color: deepskyblue;
+}
+header {
+        background-color: floralwhite ;
+        width: 60px;
+}
+footer{
+    text-align: center;
+}
