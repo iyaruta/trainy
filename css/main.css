@@ -1,0 +1,95 @@
+header .top {
+    height: 30px;
+    margin-top: 40px;
+}
+header .top .right {
+    margin-right: 10px;
+}
+header .top a {
+    color:  black;
+    text-decoration: none;
+}
+header .top a:hover {
+    text-decoration: underline;
+}
+header .middle {
+    height: 40px;
+}
+header .middle .title {
+    border: 3px solid dodgerblue;
+    border-radius: 50px;
+    width: 578px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 49px;
+    background-color: #fff;
+    position: relative;
+    left: 710px;
+
+}
+header .bottom {
+    height: 120px;
+    background-color: dodgerblue;
+}
+header .bottom ul {
+    list-style: none;
+    color: #fff;
+    font-size: 21px;
+    margin: 0;
+    position: relative;
+    top: 80px;
+}
+header .bottom ul li {
+    padding: 0 15px;
+    display: inline-block;
+}
+
+header .bottom ul li.active,
+header .bottom ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+
+
+
+
+.right {
+    float: right;
+}
+.box {
+    width: 760px;
+    margin: 10px auto;
+}
+.box .book {
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    margin: 5px 15px;
+    color: black;
+    float: left;
+}
+.box .book p {
+    border: 10px;
+}
+.box .book .net {
+    border: 15px solid dodgerblue;
+    height: 270px;
+    text-align: center;
+}
+.box .book span {
+    border: 3px solid dodgerblue;
+    border-radius: 50px;
+    width: 15px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ffffff;
+    position: relative;
+    left: 120px;
+    bottom: 32px;
+    height: 30px;
+}
